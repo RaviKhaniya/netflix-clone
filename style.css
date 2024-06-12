@@ -1,0 +1,172 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins','sans-serif';
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+    color: #fff;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.5)) ,url(header-image.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+   
+}
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+#language{
+    width: 100px;
+    height: 35px;
+    background: #fff;
+    border: 2px solid black;
+    color: black;
+    padding-left: 35px;
+
+
+}
+#sign-in{
+    background-color: rgb(229, 9, 20);
+    color: white;
+    margin-left: 10px;
+    font-size: 15px;
+
+}
+i{
+    position: relative;
+    left:35px;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    font-size: 17px;b
+    
+    
+}
+
+.header-content{
+    position: absolute ;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+
+#h2{
+    font-size: 25px;
+    font-weight: 400;
+    
+
+}
+
+#h3{
+    font-size: 20px;
+    opacity: .95;
+}
+
+.email-signup{
+    background:#fff;
+    border-radius: 5px;
+   display: flex;
+   align-items: center;
+   overflow: hidden;
+   margin-top: 35px;
+   opacity: .85;
+
+}
+
+.email-signup input{
+    flex:1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+
+}
+
+button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    padding: 15px 30px;
+}
+
+.features{
+    font-size: 22px;
+    padding: 50px 12%;
+
+}
+
+.row{
+    max-width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    align-items:center;
+    border-bottom: 5px solid gray;
+
+}
+
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+   
+   
+}
+
+
+.img-col img{
+    display: block;
+    width: 100%;
+    margin:auto;
+    padding: auto;
+   
+} 
+
+.text-col h2{
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+
+/* -------------faq----------- */
+
+.faq {
+    padding: 10px 12%;
+    display: flex;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+}
+
+.faq h2{
+    font-size: 50px;
+    font-weight: 700;
+
+
+}
+
+
+
